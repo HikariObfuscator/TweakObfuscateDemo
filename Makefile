@@ -1,6 +1,5 @@
 ARCHS = armv7 arm64
-export TARGET_CC=/Library/Developer/Toolchains/Hikari.xctoolchain/usr/bin/clang
-export TARGET_CXX=/Library/Developer/Toolchains/Hikari.xctoolchain/usr/bin/clang++
+export TOOLCHAINS=Hikari
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = MUGKit
